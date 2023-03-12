@@ -2,6 +2,7 @@
   height: 100vh;
   overflow: auto;
   padding: 1rem 0;
+  width: 100%;
 }
 
 .home::-webkit-scrollbar {
@@ -20,8 +21,3 @@
   flex-direction: row;
 }
 
-@media (max-width: 600px) {
-  .note{
-    width: 100%;
-  }
-}

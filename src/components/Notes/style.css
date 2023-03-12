@@ -59,3 +59,9 @@
 .note > ul > li > div > div {
   color: var(--primary-hover-color);
 }
+
+@media (max-width: 600px) {
+  .note{
+    width: 100%;
+  }
+}
