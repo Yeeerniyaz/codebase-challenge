@@ -1,0 +1,61 @@
+.note {
+  background-color: var(--container-color);
+  padding: 1rem;
+  width: 48%;
+  border-radius: var(--container-radius);
+  border: var(--container-border);
+  margin-top: 1rem;
+  align-content: stretch;
+}
+
+.note > .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.note > .header > .title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.note > .header > div {
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+}
+
+.note > .header > div > svg {
+  cursor: pointer;
+  color: var(--primary-color);
+  padding: 0.2rem;
+}
+
+.note > .header > svg:hover {
+  color: var(--primary-hover-color);
+}
+
+.note > ul {
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+}
+
+.note > ul > li > div {
+  display: grid;
+  grid-template-columns: auto 55px;
+  align-items: center;
+}
+
+.note > ul > li > div > div {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: var(--primary-color);
+  padding: 0.2rem;
+  gap: 1rem;
+}
+
+.note > ul > li > div > div {
+  color: var(--primary-hover-color);
+}

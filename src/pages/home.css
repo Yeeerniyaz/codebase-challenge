@@ -1,0 +1,27 @@
+.home {
+  height: 100vh;
+  overflow: auto;
+  padding: 1rem 0;
+}
+
+.home::-webkit-scrollbar {
+  display: none;
+}
+
+.home > h1 {
+  color: var(--primary-hover-color);
+  font-size: 3rem;
+}
+
+.home > .notes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  flex-direction: row;
+}
+
+@media (max-width: 600px) {
+  .note{
+    width: 100%;
+  }
+}
