@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/codebase-challenge/static/css/main.fef9b1c1.css",
+    "main.js": "/codebase-challenge/static/js/main.71aabe53.js",
+    "index.html": "/codebase-challenge/index.html",
+    "main.fef9b1c1.css.map": "/codebase-challenge/static/css/main.fef9b1c1.css.map",
+    "main.71aabe53.js.map": "/codebase-challenge/static/js/main.71aabe53.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fef9b1c1.css",
+    "static/js/main.71aabe53.js"
+  ]
+}
