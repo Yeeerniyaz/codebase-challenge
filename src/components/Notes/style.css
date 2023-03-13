@@ -47,6 +47,10 @@
   align-items: center;
 }
 
+.note > ul > li > div > .true {
+  opacity: 0.7;
+}
+
 .note > ul > li > div > div {
   cursor: pointer;
   display: flex;
@@ -61,7 +65,7 @@
 }
 
 @media (max-width: 600px) {
-  .note{
+  .note {
     width: 100%;
   }
 }

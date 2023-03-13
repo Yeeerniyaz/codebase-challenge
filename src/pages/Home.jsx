@@ -17,7 +17,7 @@ function Home() {
   return (
     <div className="container">
       <div className="home">
-        <h1>Заметкий</h1>
+        <h1>Список дел</h1>
         <div className="notes">
           <NotesMap />
         </div>

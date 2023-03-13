@@ -28,7 +28,7 @@ export default function Note({ note }) {
       return (
         <li key={item.id}>
           <div>
-            <p>{item.label}</p>
+            <p className={`${item.completed && "true"}`}>{item.label}</p>
             <div>
               <input
                 type="checkbox"

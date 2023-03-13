@@ -11,16 +11,20 @@ import "./style.css";
 const NewNoteForm = () => {
   const dispatch = useDispatch();
   const [toggle, setToggle] = React.useState(false);
+  const [title, setTitle] = React.useState("");
+  const [task, setTask] = React.useState("");
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    const title = event.target.title.value;
-    const tasks = event.target.tasks.value
+    const tasks = task
       .split(",")
       .map((task) => task.trim())
       .filter((task) => task !== "");
     const id = nanoid();
     dispatch(addNote({ title, tasks, id }));
+    setToggle(false);
+    setTask("");
+    setTitle("");
   };
 
   return (
@@ -28,17 +32,19 @@ const NewNoteForm = () => {
       <form onSubmit={handleSubmit} className={`${toggle && "newNoteToggle"}`}>
         <h1>Создать заметку</h1>
 
-        <label htmlFor="title">Название:</label>
+        <label>Название:</label>
         <input
+          required
           type="text"
-          id="title"
-          name="title"
           placeholder="Список покупок:"
+          value={title}
+          onChange={(e) => setTitle(e.target.value)}
         />
         <label htmlFor="tasks">Задачи:</label>
         <textarea
-          id="tasks"
-          name="tasks"
+          required
+          value={task}
+          onChange={(e) => setTask(e.target.value)}
           placeholder="Хлеб,
 Молоко,
 Яйца,
