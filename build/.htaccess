@@ -1,6 +1,6 @@
 RewriteEngine On
-RewriteBase /<название-репозитория>/
+RewriteBase /codebase-challenge/
 RewriteRule ^index\.html$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /<название-репозитория>/index.html [L]
+RewriteRule . /codebase-challenge/index.html [L]
