@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/codebase-challenge/static/css/main.355126e0.css",
-    "main.js": "/codebase-challenge/static/js/main.12dd3157.js",
+    "main.js": "/codebase-challenge/static/js/main.35403653.js",
     "index.html": "/codebase-challenge/index.html",
     "main.355126e0.css.map": "/codebase-challenge/static/css/main.355126e0.css.map",
-    "main.12dd3157.js.map": "/codebase-challenge/static/js/main.12dd3157.js.map"
+    "main.35403653.js.map": "/codebase-challenge/static/js/main.35403653.js.map"
   },
   "entrypoints": [
     "static/css/main.355126e0.css",
-    "static/js/main.12dd3157.js"
+    "static/js/main.35403653.js"
   ]
 }
