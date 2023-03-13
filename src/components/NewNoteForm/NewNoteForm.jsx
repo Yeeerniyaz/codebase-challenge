@@ -30,7 +30,7 @@ const NewNoteForm = () => {
   return (
     <div className="newNote">
       <form onSubmit={handleSubmit} className={`${toggle && "newNoteToggle"}`}>
-        <h1>Создать заметку</h1>
+        <h1>Создать cписок</h1>
 
         <label>Название:</label>
         <input
